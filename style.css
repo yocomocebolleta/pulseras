@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    padding: 0%;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+
+}
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+a {
+   color: #000000;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+a:hover {
+    color: rgb(197, 35, 35);
+}
+
+ul i {
+    color: #000000;
+}
+ul i :hover {
+    color: rgb(197, 35, 35);
+}
+/* banner*/
+.banner {
+    width: 100%;
+    height: calc(108vh - 50px);
+    background-position : center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+    
+    background-image: url(imghtml/Banner\ Nueva\ Coleccion\ Vestidos\ de\ Baño\ Rosa.jpg)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .logo {
+    color:black;
+    font-size: 25px;
+    font-weight: 800;
+ }
+
+.logo img {
+    width: 60px;
+ }
+body{
+font-family: 'Roboto Condensed' , sans-serif;}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+
+#menu {
+    display: none;
+}
+
+
+.menu-icono {
+    width: 25px;
+}
+.menu label {
+    cursor: pointer;
+    display: none;
+    
+}
+.header-content {
+    text-align: center;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: red;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.header-content p {
+    font-size: 16px;
+    color: #5c0079;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.header-content p:hover {
+   color: #FF69B4;
+}
+
+
+.txt-p {
+    font-size: 24px;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+.ropa-1 {
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+.ropa-1 img {
+    width: 400px;
+    height: 300;
+}
+.ropa-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.servicios {
+        background-color: red
+        url(Imagen\ de\ WhatsApp\ 2024-04-14\ a\ las\ 17.11.00_9075ba89.jpg);
+        background-position : center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+}
+.servicios-content {
+    text-align: center;
+}
+.servicios-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color:rgb(197, 35, 35);
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.servicios-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.servicios-1 {
+    padding: 0 3px;
+}
+.servicios-1 img {
+    width: 280px;
+    height: 98;
+    right: 3;
+}
+.btn-2 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color:rgb(197, 35, 35);
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+.btn-2:hover {
+    background-color:#efb810;
+}
+.icons {
+    color: black;
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.icons i:hover {
+    color: rgb(197, 35, 35);
+    }
+
+/* ... */
+.precios {
+    background-color: black
+}
+.text-content {
+    text-align: center;
+    font-size: 47px;
+    line-height: 70px;
+    color:white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    
+}
+.productos-group {
+display: flex;
+margin-bottom: 50px;
+}
+.producto-1 a {
+    color: white;
+}
+.producto-1 a:hover {
+    color: rgb(197, 35, 35);
+}
+.producto-1 {
+padding: 0 3px;
+}
+.producto-1 img {
+width: 400px;
+height: 98;
+
+}
